@@ -1,0 +1,331 @@
+{
+  "questions": [
+      {
+          "pk": 1,
+          "content": "하루 중 가장 기분이<br>좋은 시간대는 언제인가요?"
+      },
+      {
+          "pk": 2,
+          "content": "당신은 걸을 때,<br>보통 어떻게 하시나요?"
+      },
+      {
+          "pk": 3,
+          "content": "당신은 사람들과 이야기 할 때,<br>보통 어떻게 하시나요?"
+      },
+      {
+          "pk": 4,
+          "content": "당신은 편하게 앉을 때,<br>보통 어떻게 하시나요?"
+      },
+      {
+          "pk": 5,
+          "content": "당신에게 재미있는 일이 생겼습니다.<br>그럴 때 당신은?"
+      },
+      {
+          "pk": 6,
+          "content": "당신이 가장<br>좋아하는 색깔은 무엇인가요?"
+      },
+      {
+          "pk": 7,
+          "content": "당신은 사람이 많이 모이는 장소에서<br>보통 어떻게 하시나요?"
+      },
+      {
+          "pk": 8,
+          "content": "당신은 무언가에 집중하고 있습니다.<br>그때 방해를 받게 되는데요. 그때 당신은?"
+      },
+      {
+          "pk": 9,
+          "content": "잠들기 직전 취하는 포즈는 무엇인가요?"
+      },
+      {
+          "pk": 10,
+          "content": "당신이 평소에 자주 꾸는<br>꿈은 무엇인가요?"
+      }
+  ],
+  "answers": [
+      {
+          "pk": 1,
+          "content": "아침",
+          "image": "images/morning.png",
+          "score": 2,
+          "question": 1
+      },
+      {
+          "pk": 2,
+          "content": "오후나<br>이른 저녁",
+          "image": "images/lunch.png",
+          "score": 4,
+          "question": 1
+      },
+      {
+          "pk": 3,
+          "content": "늦은 밤",
+          "image": "images/noon.png",
+          "score": 6,
+          "question": 1
+      },
+      {
+          "pk": 4,
+          "content": "A. 머리를 들고, 정명을 바라보며 천천히 걷는다.",
+          "score": 7,
+          "question": 2
+      },
+      {
+          "pk": 5,
+          "content": "B. 보폭을 넓게 해서 빠르게 걷는다.",
+          "score": 6,
+          "question": 2
+      },
+      {
+          "pk": 6,
+          "content": "C. 보폭을 좁게 해서 빠르게 걷는다.",
+          "score": 4,
+          "question": 2
+      },
+      {
+          "pk": 7,
+          "content": "D. 바닥을 보며 천천히 걷는다.",
+          "score": 2,
+          "question": 2
+      },
+      {
+          "pk": 8,
+          "content": "E. 매우 느리게 걷는다.",
+          "score": 1,
+          "question": 2
+      },
+      {
+          "pk": 9,
+          "content": "A. 상대방을 터치하면서 이야기 한다.",
+          "score": 7,
+          "question": 3
+      },
+      {
+          "pk": 10,
+          "content": "B. 내 몸이나 머리를 만지작 거리며 이야기 한다.",
+          "score": 6,
+          "question": 3
+      },
+      {
+          "pk": 11,
+          "content": "C. 한 손이나 양손을 허리에 올리고 이야기 한다.",
+          "score": 5,
+          "question": 3
+      },
+      {
+          "pk": 12,
+          "content": "D. 팔짱을 끼고 이야기 한다.",
+          "score": 4,
+          "question": 3
+      },
+      {
+          "pk": 13,
+          "content": "E. 두 손을 마주 잡고 이야기한다.",
+          "score": 2,
+          "question": 3
+      },
+      {
+          "pk": 14,
+          "content": "A. 다리를 꼬고 앉는다.",
+          "score": 6,
+          "question": 4
+      },
+      {
+          "pk": 15,
+          "content": "B. 다리를 굽힌 채로 나란히 둔다.",
+          "score": 4,
+          "question": 4
+      },
+      {
+          "pk": 16,
+          "content": "C. 다리를 쭉 펴고 앉는다.",
+          "score": 2,
+          "question": 4
+      },
+      {
+          "pk": 17,
+          "content": "D. 한쪽 다리를 접어 깔고 앉는다.",
+          "score": 1,
+          "question": 4
+      },
+      {
+          "pk": 18,
+          "content": "A. 웃음을 숨기지 않고 크게 웃는다.",
+          "score": 6,
+          "question": 5
+      },
+      {
+          "pk": 19,
+          "content": "B. 가볍게 미소를 짓는다.",
+          "score": 4,
+          "question": 5
+      },
+      {
+          "pk": 20,
+          "content": "C. 웃지만 크게 웃지 않는다.",
+          "score": 2,
+          "question": 5
+      },
+      {
+          "pk": 21,
+          "content": "D. 소리를 내지 않고 웃는다.",
+          "score": 1,
+          "question": 5
+      },
+      {
+          "pk": 22,
+          "content": "검정색",
+          "image": "black.png",
+          "score": 7,
+          "question": 6
+      },
+      {
+          "pk": 23,
+          "content": "빨강 또는<br>주황색",
+          "image": "red.png",
+          "score": 6,
+          "question": 6
+      },
+      {
+          "pk": 24,
+          "content": "노랑 또는<br>연파랑색",
+          "image": "yellow.png",
+          "score": 5,
+          "question": 6
+      },
+      {
+          "pk": 25,
+          "content": "초록색",
+          "image": "green.png",
+          "score": 4,
+          "question": 6
+      },
+      {
+          "pk": 26,
+          "content": "진한 파랑<br>또는 보라색",
+          "image": "blue.png",
+          "score": 3,
+          "question": 6
+      },
+      {
+          "pk": 27,
+          "content": "하얀색",
+          "image": "white.png",
+          "score": 2,
+          "question": 6
+      },
+      {
+          "pk": 28,
+          "content": "갈색 또는 회색",
+          "image": "brown.png",
+          "score": 1,
+          "question": 6
+      },
+      {
+        "pk": 29,
+        "content": "A. 관심을 한 몸에 받고 싶어 한다.",
+        "score": 6,
+        "question": 7
+      },
+      {
+          "pk": 30,
+          "content": "B. 차분히 들어가서 천천히 구경한다.",
+          "score": 4,
+          "question": 7
+      },
+      {
+          "pk": 31,
+          "content": "C. 시선을 끌지 않도록 조용히 있는다.",
+          "score": 2,
+          "question": 7
+      },
+      {
+          "pk": 32,
+          "content": "A. 휴식의 시간을 반갑게 맞이한다.",
+          "score": 6,
+          "question": 8
+      },
+      {
+          "pk": 33,
+          "content": "B. 짜증이 나지만 티를 내지 않는다.",
+          "score": 4,
+          "question": 8
+      },
+      {
+          "pk": 34,
+          "content": "C. 자증이 나며 투덜거린다.",
+          "score": 2,
+          "question": 8
+      },
+      {
+          "pk": 35,
+          "content": "군인형",
+          "image": "9-a.png",
+          "score": 7,
+          "question": 9
+      },
+      {
+          "pk": 36,
+          "content": "자유낙하형",
+          "image": "9-b.png",
+          "score": 6,
+          "question": 9
+      },
+      {
+          "pk": 37,
+          "content": "태아형",
+          "image": "9-c.png",
+          "score": 4,
+          "question": 9
+      },
+      {
+          "pk": 38,
+          "content": "갈망형",
+          "image": "9-d.png",
+          "score": 2,
+          "question": 9
+      },
+      {
+          "pk": 39,
+          "content": "불가사리형",
+          "image": "9-e.png",
+          "score": 1,
+          "question": 9
+      },
+      {
+          "pk": 40,
+          "content": "A. 꿈을 잘 꾸지 않는다.",
+          "score": 6,
+          "question": 10
+      },
+      {
+          "pk": 41,
+          "content": "B. 날아오르는 꿈을 꾼다.",
+          "score": 5,
+          "question": 10
+      },
+      {
+          "pk": 42,
+          "content": "C. 떨어지는 꿈을 꾼다.",
+          "score": 4,
+          "question": 10
+      },
+      {
+          "pk": 43,
+          "content": "D. 무언가를 열심히 찾는 꿈을 꾼다.",
+          "score": 3,
+          "question": 10
+      },
+      {
+          "pk": 44,
+          "content": "E. 싸우거나 애쓰는 꿈을 꾼다.",
+          "score": 2,
+          "question": 10
+      },
+      {
+          "pk": 45,
+          "content": "F. 기분 좋은 느낌의 꿈을 꾼다.",
+          "score": 1,
+          "question": 10
+      }
+  ]
+}

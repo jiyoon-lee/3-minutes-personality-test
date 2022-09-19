@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/style.css">
+  <title>3 Minutes Personal Test</title>
+</head>
+<body>
+  <form action="/submit" id="question-form" method="post">
+    <!-- 이전버튼 -->
+    <!-- 컨텐츠 -->
+    <!-- 다음버튼 -->
+    <!-- 프로그래스바 -->
+    <!-- 1번 문항 -->
+    <h2>Q1. 하루 중 가장 기분이<br>좋은 시간대는 언제인가요?</h2>
+    <ul class="question-1">
+      <li class="question-1-list">
+        <input type="radio" id="answer-1" name="question-1" value="5">
+        <label for="answer-1">
+          <figure class="questioin-image" style="background-image: url(images/morning.png);">
+            <img src="images/morning.png" alt="일분이">
+          </figure>
+          <span>아침</span>
+        </label>
+      </li>
+      <li class="question-1-list">
+        <input type="radio" id="answer-1" name="question-1" value="5">
+        <label for="answer-1">
+          <figure class="questioin-image" style="background-image: url(images/lunch.png);">
+            <img src="images/lunch.png" alt="일분이">
+          </figure>
+        </label>
+      </li>
+      <li class="question-1-list">
+        <input type="radio" id="answer-1" name="question-1" value="5">
+        <label for="answer-1">
+          <figure class="questioin-image" style="background-image: url(images/noon.png);">
+            <img src="images/noon.png" alt="일분이">
+          </figure>
+        </label>
+      </li>
+    </ul>
+  </form>
+  <script type="text/javascript" src="../js/question.js"></script>
+</body>
+</html>

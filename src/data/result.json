@@ -1,0 +1,32 @@
+[
+  {
+      "pk": 1,
+      "img": "../images/result-1.png",
+      "features": "남들은 당신을 매우 소심하고, 우유부단하다고 생각합니다. 결정을 내리기 힘들어하는 당신은 누군가가 당신을 대신하여 결정을 내려주길 원합니다. 그렇지만, 타인이나 어떤 사건에 연루되는 것을 매우 기피하는 사람으로 걱정을 사서 하는 타입이기도 합니다. 당신을 잘 모르는 사람들은 당신을 지루하다고 생각하기도 합니다. 그렇지만, 속이 깊은 당신은 누구보다도 진실한 사람이라고 할 수 있습니다."
+  },
+  {
+      "pk": 2,
+      "img": "../images/result-2.jpg",
+      "features": ""
+  },
+  {
+    "pk": 3,
+    "img": "../images/result-3.jpg",
+    "features": ""
+  },
+  {
+    "pk": 4,
+    "img": "../images/result-4.jpg",
+    "features": ""
+  },
+  {
+    "pk": 5,
+    "img": "../images/result-5.jpg",
+    "features": ""
+  },
+  {
+    "pk": 6,
+    "img": "../images/result-6.jpg",
+    "features": ""
+  }
+]
