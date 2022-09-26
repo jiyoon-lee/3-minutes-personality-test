@@ -56,80 +56,225 @@ a {
 } */
 
 /* 
-질문지
+question.html
 */
-/* 레이아웃 나누기 */
-#question-form {
+/* 1번 문제 */
+.question-item {
+  display: none;
+}
+.on {
   display: grid;
-  grid-template-columns: 15% 1fr 15%;
   height: 100vh;
+  grid-template-columns: 15% 1fr 15%;
+}
+aside {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.prev-btn img, .next-btn img {
+  width: 100px;
 }
 .main {
   display: flex;
   flex-direction: column;
+  overflow-y: hidden;
 }
-.header {
-  flex: 0 0 20%;
+.status-bar {
+  flex: 1 0 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.section {
-  flex: 0 0 10%;
+
+.status-bar .outter-box {
+  position:relative;
+  width: 80%;
+  height: 30px;
+  border-radius: 15px;
+  border: 5px solid var(--action-color);
 }
-.section h2 {
+
+.outter-box img {
+  position: absolute;
+  bottom: -13px;
+  width: 50px;
+  left: 92px;
+}
+
+.outter-box .inner-box {
+  position:absolute;
+  width: 120px;
+  height: 22px;
+  bottom: 0px;
+  border-radius: 15px;
+  left: -3px;
+  background: var(--action-color);
+}
+
+.question-box {
+  flex: 1 0 80%;
+  font-size: 30px;
   text-align: center;
 }
-.article {
-  /* flex: 1 1 70%; */
-  padding-top: 1rem;
+
+.answer-list {
+  margin-top: 50px;
+  display: flex;
 }
-.aside-prev, .aside-next {
-  margin: auto 0;
+
+.answer-list-string {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
 }
-.button-prev-image, .button-next-image {
-  height: 0;
-  padding-bottom: 60%;
-  background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+
+.answer-item {
+  flex: 1 1 33.3333%;
+  display: flex;
+  justify-content: center;
 }
-.button-prev-image img, .button-next-image img {
+
+.answer-img {
+  width: 150px;
+  height: 150px;
+  background-size: cover;
+  margin-bottom: 30px;
+}
+
+input[type="radio"] {
   display: none;
 }
 
-/* 문제1번 */
-.questioin-1-image {
-  height: 0;
-  padding-bottom: 70%;
-  background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+input[name="question-1"] + label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
-.questioin-1-image img {
+
+input[name="question-1"] + label span {
+  margin-top: 50px;
+  display: block;
+  width:30px;
+  height:30px;
+  background:url(../images/check.png) no-repeat;
+  background-size: contain;
+  cursor:pointer;
+}
+
+/* 2번 문제 */
+input[name="question-2"] + label,
+input[name="question-3"] + label,
+input[name="question-4"] + label,
+input[name="question-5"] + label,
+input[name="question-7"] + label,
+input[name="question-8"] + label,
+input[name="question-10"] + label {
+  padding: 15px 0;
+}
+
+input[name="question-2"] + label span,
+input[name="question-3"] + label span,
+input[name="question-4"] + label span,
+input[name="question-5"] + label span,
+input[name="question-7"] + label span,
+input[name="question-8"] + label span,
+input[name="question-10"] + label span {
+  vertical-align: -5px;
+  display: inline-block;
+  width:30px;
+  height:30px;
+  background:url(../images/check.png) no-repeat;
+  background-size: contain;
+  cursor:pointer;
+}
+
+/* 6번 문제 */
+.question-6-answer-list {
+  flex-wrap: wrap;
+}
+input[name="question-6"] + label {
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.question-6-answer-item {
+  flex-basis: 25%;
+  margin-bottom: 20px;
+}
+
+input[name="question-6"] + label div {
+  width: 100px;
+  height: 100px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+input[name="question-6"] + label span {
+  display: block;
+  width:30px;
+  height:30px;
+  margin: 0 auto;
+  background:url(../images/check.png) no-repeat;
+  background-size: contain;
+  cursor:pointer;
+  margin-top: 10px;
+}
+
+input[type="radio"]:checked + label span {
+  background:url(../images/checked.png) no-repeat;
+  background-size: cover;
+}
+
+/* 9번 문제 */
+input[name="question-9"] + label div {
+  width: 130px;
+  height: 300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+input[name="question-9"] + label span {
+  display: block;
+  width:30px;
+  height:30px;
+  margin: 0 auto;
+  background:url(../images/check.png) no-repeat;
+  background-size: contain;
+  cursor:pointer;
+  margin-top: 10px;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    button img {
+      width: 50px;
+    }
+  }
+
+.result-container {
+  height: 100vh;
+  display: flex;
+}
+.result-img {
+  flex: 1 0 50%;
+  background-image: url('../images/result-1.png');
+  padding-bottom: 60%;
+  width: 440px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.result-img img {
   display: none;
 }
-.question-list-1 {
-  display: flex;
-  height: 100%;
-}
-input, label {
-  cursor: pointer;
-  font-size: 10px;
-  line-height: 19.2px;
-}
-.question-item-1 {
-  flex: 1 0 33.33%;
-  position: relative;
-}
-.question-item-1 input[type="radio"] {
-  position: absolute;
-  bottom: -1.2rem;
-  left: 50%;
-  transform: translateX(-80%);
-}
-.image-description {
-  margin-top: 10px;
-  text-align: center;
-  font-size: 5px;
-}
-ol {
-  text-align: center;
+.article-description {
+  font-size: 30px;
+  line-height: 40px;
+  white-space: 20px;
+  padding: 20px;
 }

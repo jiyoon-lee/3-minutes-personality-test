@@ -45,7 +45,7 @@
       {
           "pk": 1,
           "content": "아침",
-          "image": "images/morning.png",
+          "image": "../images/morning.png",
           "score": 2,
           "question": 1
       },
@@ -174,49 +174,49 @@
       {
           "pk": 22,
           "content": "검정색",
-          "image": "black.png",
+          "image": "../images/black.png",
           "score": 7,
           "question": 6
       },
       {
           "pk": 23,
           "content": "빨강 또는<br>주황색",
-          "image": "red.png",
+          "image": "../images/red.png",
           "score": 6,
           "question": 6
       },
       {
           "pk": 24,
           "content": "노랑 또는<br>연파랑색",
-          "image": "yellow.png",
+          "image": "../images/yellow.png",
           "score": 5,
           "question": 6
       },
       {
           "pk": 25,
           "content": "초록색",
-          "image": "green.png",
+          "image": "../images/green.png",
           "score": 4,
           "question": 6
       },
       {
           "pk": 26,
           "content": "진한 파랑<br>또는 보라색",
-          "image": "blue.png",
+          "image": "../images/blue.png",
           "score": 3,
           "question": 6
       },
       {
           "pk": 27,
           "content": "하얀색",
-          "image": "white.png",
+          "image": "../images/white.png",
           "score": 2,
           "question": 6
       },
       {
           "pk": 28,
           "content": "갈색 또는 회색",
-          "image": "brown.png",
+          "image": "../images/brown.png",
           "score": 1,
           "question": 6
       },
@@ -259,35 +259,35 @@
       {
           "pk": 35,
           "content": "군인형",
-          "image": "9-a.png",
+          "image": "../images/9-a.png",
           "score": 7,
           "question": 9
       },
       {
           "pk": 36,
           "content": "자유낙하형",
-          "image": "9-b.png",
+          "image": "../images/9-b.png",
           "score": 6,
           "question": 9
       },
       {
           "pk": 37,
           "content": "태아형",
-          "image": "9-c.png",
+          "image": "../images/9-c.png",
           "score": 4,
           "question": 9
       },
       {
           "pk": 38,
           "content": "갈망형",
-          "image": "9-d.png",
+          "image": "../images/9-d.png",
           "score": 2,
           "question": 9
       },
       {
           "pk": 39,
           "content": "불가사리형",
-          "image": "9-e.png",
+          "image": "../images/9-e.png",
           "score": 1,
           "question": 9
       },
