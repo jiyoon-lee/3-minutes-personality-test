@@ -1,12 +1,12 @@
 @charset "utf-8";
 @import "reset.css";
-@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
 
 :root {
-  --radio-color: #FFDEB4;
-  --background-color: #FFF9CA;
-  --action-color: #B2A4FF;
-  --button-color: #FFB4B4;
+  --radio-color: #ffdeb4;
+  --background-color: #fff9ca;
+  --action-color: #b2a4ff;
+  --button-color: #ffb4b4;
   --button-highlight-color: #ff7777;
 }
 
@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: 'Jua', sans-serif;
+  font-family: "Jua", sans-serif;
   background: var(--background-color);
 }
 
@@ -27,23 +27,37 @@ a {
 /* 
   시작페이지
 */
-/* .intro-image {
+.intro-image {
   height: 0;
   padding-bottom: 20%;
   background-repeat: no-repeat;
-	background-position: center;
-	background-size: contain;
+  background-position: center;
+  background-size: contain;
 }
-.intro-image img {
-	display: none;
+.intro-img {
+  display: block;
+  width: 300px;
 }
+.intro-container {
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-title {
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
 .intro-container h1 {
   text-align: center;
   font-size: 55px;
   margin-bottom: 3rem;
 }
 .intro-container button {
-  margin: 66px auto 0;
+  margin: 30px auto 0;
   display: block;
   width: 300px;
   height: 52px;
@@ -51,9 +65,9 @@ a {
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   font-size: 20px;
-  border: 4px solid #B2A4FF;
+  border: 4px solid #b2a4ff;
   font-weight: 900;
-} */
+}
 
 /* 
 question.html
@@ -72,7 +86,8 @@ aside {
   justify-content: center;
   align-items: center;
 }
-.prev-btn img, .next-btn img {
+.prev-btn img,
+.next-btn img {
   width: 100px;
 }
 .main {
@@ -88,7 +103,7 @@ aside {
 }
 
 .status-bar .outter-box {
-  position:relative;
+  position: relative;
   width: 80%;
   height: 30px;
   border-radius: 15px;
@@ -103,7 +118,7 @@ aside {
 }
 
 .outter-box .inner-box {
-  position:absolute;
+  position: absolute;
   width: 120px;
   height: 22px;
   bottom: 0px;
@@ -156,11 +171,11 @@ input[name="question-1"] + label {
 input[name="question-1"] + label span {
   margin-top: 50px;
   display: block;
-  width:30px;
-  height:30px;
-  background:url(../images/check.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  background: url(../images/check.png) no-repeat;
   background-size: contain;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 /* 2번 문제 */
@@ -183,11 +198,11 @@ input[name="question-8"] + label span,
 input[name="question-10"] + label span {
   vertical-align: -5px;
   display: inline-block;
-  width:30px;
-  height:30px;
-  background:url(../images/check.png) no-repeat;
+  width: 30px;
+  height: 30px;
+  background: url(../images/check.png) no-repeat;
   background-size: contain;
-  cursor:pointer;
+  cursor: pointer;
 }
 
 /* 6번 문제 */
@@ -215,17 +230,17 @@ input[name="question-6"] + label div {
 }
 input[name="question-6"] + label span {
   display: block;
-  width:30px;
-  height:30px;
+  width: 30px;
+  height: 30px;
   margin: 0 auto;
-  background:url(../images/check.png) no-repeat;
+  background: url(../images/check.png) no-repeat;
   background-size: contain;
-  cursor:pointer;
+  cursor: pointer;
   margin-top: 10px;
 }
 
 input[type="radio"]:checked + label span {
-  background:url(../images/checked.png) no-repeat;
+  background: url(../images/checked.png) no-repeat;
   background-size: cover;
 }
 
@@ -239,23 +254,20 @@ input[name="question-9"] + label div {
 
 input[name="question-9"] + label span {
   display: block;
-  width:30px;
-  height:30px;
+  width: 30px;
+  height: 30px;
   margin: 0 auto;
-  background:url(../images/check.png) no-repeat;
+  background: url(../images/check.png) no-repeat;
   background-size: contain;
-  cursor:pointer;
+  cursor: pointer;
   margin-top: 10px;
 }
 
-@media only screen
-  and (min-device-width: 320px)
-  and (max-device-width: 480px)
-  and (-webkit-min-device-pixel-ratio: 2) {
-    button img {
-      width: 50px;
-    }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
+  button img {
+    width: 50px;
   }
+}
 
 .result-container {
   height: 100vh;
@@ -263,7 +275,7 @@ input[name="question-9"] + label span {
 }
 .result-img {
   flex: 1 0 50%;
-  background-image: url('../images/result-1.png');
+  background-image: url("../images/result-1.png");
   padding-bottom: 60%;
   width: 440px;
   background-size: contain;

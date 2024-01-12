@@ -1,3 +1,3 @@
-# 3-minutes-personality-test
+## 서비스 소개
 
-hello
+3분
